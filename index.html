@@ -1,0 +1,549 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FitZone</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+    
+
+<header class="header">
+
+    <a href="#" class="logo"> <span>Fit</span>Zone </a>
+
+    <div id="menu-btn" class="fas fa-bars"></div>
+
+    <nav class="navbar">
+        <a href="#home">Главная</a>
+        <a href="#about">О нас</a>
+        <a href="#features">Залы</a>
+        <a href="#pricing">Тарифы</a>
+        <a href="#trainers">Тренеры</a>
+        <a href="#blogs">Блог</a>
+        <a href="#register">Записаться</a>
+    </nav>
+
+</header>
+
+
+
+<section class="home" id="home">
+
+    <div class="swiper home-slider">
+
+        <div class="swiper-wrapper">
+
+            <div class="swiper-slide slide" style="background: url(images/home-bg-2.jpg) no-repeat;">
+                <div class="content">
+                    <span>Будь сильным, будь в форме</span>
+                    <h3>Открой для себя мир фитнеса.</h3>
+                    <a href="#" class="btn">Начать заниматься</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide slide" style="background: url(images/home-bg-3.jpg) no-repeat;">
+                 <div class="content">
+                    <span>Будь сильным, будь в форме</span>
+                    <h3>Открой для себя мир фитнеса.</h3>
+                    <a href="#register" class="btn">Начать заниматься</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide slide" style="background: url(bg3.jpg) no-repeat;">
+                 <div class="content">
+                    <span>Будь сильным, будь в форме</span>
+                    <h3>Открой для себя мир фитнеса.</h3>
+                    <a href="#" class="btn">Начать заниматься</a>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="swiper-pagination"></div>
+
+    </div>
+
+</section>
+
+
+
+<section class="about" id="about">
+
+    <div class="image">
+        <img src="images/about-img.jpg" alt="">
+    </div>
+
+    <div class="content">
+        <span>О нас</span>
+        <h3 class="title">FitZone - место, где вы можете превратить свои мечты в реальность.</h3>
+        <p>Фитнес-клуб "FitZone" был основан в 2017 году и стал популярным местом для занятий спортом и поддержки здорового образа жизни. Он предлагает разнообразные программы тренировок, современное оборудование и проводит различные мероприятия, такие как семинары и спортивные соревнования. Клуб также является сообществом людей, разделяющих ценности здоровья и активного образа жизни.</p>
+        <div class="box-container">
+            <div class="box">
+                <h3><i class="fas fa-check"></i>Во-первых</h3>
+                <p>Наш фитнес клуб оборудован более чем 50 премиум тренажерами, что позволяет клиентам разнообразить свои тренировки и достичь лучших результатов.</p>
+            </div>
+            <div class="box">
+                <h3><i class="fas fa-check"></i>Во-вторых</h3>
+                <p>Мы предлагаем персональные программы тренировок и консультации по питанию, чтобы помочь нашим клиентам достичь своих целей в здоровье и фитнесе.</p>
+            </div>
+            <div class="box">
+                <h3><i class="fas fa-check"></i>В-третьих</h3>
+                <p>Наш клуб оборудован современным оборудованием и имеет удобное расписание работы, чтобы каждый мог найти удобное время для занятий.</p>
+            </div>
+            <div class="box">
+                <h3><i class="fas fa-check"></i>В-четвертых</h3>
+                <p>Наш клуб предоставляет все необходимые условия для комфортного занятия спортом, включая раздевалки, душевые, аренду спортивной одежды и обуви.</p>
+            </div>
+        </div>
+        <button id="myBtn" class="btn open-popup">Подробнее</button>
+
+        <div id="myModal" class="modal">
+            <div class="modal-content">
+                <div class="dop-info-main">
+                    <button class="close">X</button>
+                    <div class="title-dop-info">
+                        Также у нас есть:
+                        <div class="dop-info">
+                            <ul class="spisok-dop">
+                                <li>Комфортная зона отдыха</li>
+                                <li>Вертикальный солярий</li>
+                                <li>Более 20 различных фитнес направлений</li>
+                                <li>Русско-финские сауны</li>
+                                <li>Фитнес-бар. Магазин спортивного питания</li>
+                                <li>Удобная парковка</li>   
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+<section class="features" id="features">
+
+    <h1 class="heading"> <span>Залы</span> </h1>
+
+    <div class="box-container">
+
+
+        <div class="box second">
+            <div class="image">
+                <img src="home.jpg" alt="">
+            </div>
+            <div class="content">
+                <img src="images/icon-2.png" alt="">
+                <h3>Мужской зал</h3>
+                <p>Каждый мужчина сможет набрать мышечную массу.</p>
+                <button id="myBtn1" class="btn">Подробнее</button>
+                <div id="myModal1" class="modal">
+                    <div class="modal-content2">
+                        <button class="close1">X</button>
+                        <div class="title-dop-info2">
+                            Мужской зал
+                            <div class="dop-info2">
+                                <ul class="spisok-dop2">
+                                    <li>Тренажеры для силовых упражнений, такие как гантели, штанги, тренажеры для пресса и т.д.</li>
+                                    <li>Кардио-оборудование, например беговые дорожки, велотренажеры, эллиптические тренажеры.</li>
+                                    <li>Спортивные маты и пресс-стенды для функциональных тренировок.</li>
+                                    <li>Оборудование для растяжки и реабилитации.</li>
+                                    <li>Раздевалки и душевые комнаты.</li>
+                                    <li>Наличие специальной зоны для бокса или единоборств.</li>   
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image">
+                <img src="about.jpg" alt="">
+            </div>
+            <div class="content">
+                <img src="images/icon-3.png" alt="">
+                <h3>Женский зал</h3>
+                <p>Каждая девушка сможет иметь красивую и стройную фигуру.</p>
+                <button id="myBtn2" class="btn">Подробнее</button>
+                <div id="myModal2" class="modal">
+                    <div class="modal-content3">
+                        <button class="close2">X</button>
+                        <div class="title-dop-info3">
+                            Женский зал
+                            <div class="dop-info3">
+                                <p><span>В женском зале представлены специальные тренажеры и оборудование для работы с проблемными зонами, такими как ягодицы, бедра, брюшной пресс. Также представлены групповые занятия, ориентированные на женщин, такие как йога, пилатес, танцевальные программы.</span></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<section class="pricing" id="pricing">
+    <div class="information">
+        <span>Тарифный план</span>
+        <h3>Доступный тарифный план для вас</h3>
+        <p>Благодарим вас за проявленный интерес к FitZone.
+        <span>Основные тарифы:</span></p>
+        <p> <i class="fas fa-check"></i> Базовый тариф </p>
+        <p> <i class="fas fa-check"></i> Премиум тариф </p>
+        <p> <i class="fas fa-check"></i> Тариф для школьников и студентов </p>
+        <p> <i class="fas fa-check"></i> Тариф для пожилых людей </p>
+    </div>
+
+    <div class="plan basic">
+        <h3>Базовый тариф</h3>
+        <div class="price"><span>₽</span>2692,86<span>/месяц</span></div>
+       <div class="list">
+        <p> <i class="fas fa-check"></i> Тренажерный зал </p>
+        <p> <i class="fas fa-check"></i> Зал для групповых занятий </p>
+        <p> <i class="fas fa-check"></i> Кардио тренажеры </p>
+        <p> <i class="fas fa-check"></i> Силовые тренажеры </p>
+       </div>
+       <a href="#register" class="btn">Начать</a>
+    </div>
+
+    <div class="plan premium">
+        <h3>Премиум тариф</h3>
+        <div class="price"><span>₽</span>4936,9<span>/месяц</span></div>
+       <div class="list">
+        <p> <i class="fas fa-check"></i> Тренажерный зал </p>
+        <p> <i class="fas fa-check"></i> Персональные тренировки </p>
+        <p> <i class="fas fa-check"></i> SPA-процедуры </p>
+        <p> <i class="fas fa-check"></i> Солярий </p>
+        <p> <i class="fas fa-check"></i> Бесплатная спортивная одежда </p>
+       </div>
+       <a href="#register" class="btn">Начать</a>
+
+    </div>
+</section>
+
+<section class="trainers" id="trainers">
+
+    <h1 class="heading"> <span>Тренеры</span> </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <img src="trener2.jpg" alt="">
+            <div class="content">
+                <span>Тренер</span>
+                <h3>Иванов Андрей Максимович</h3>
+                <div class="share">
+                    <a href="#" class="fab fa-telegram"></a>
+                    <a href="#" class="fab fa-twitter"></a>
+                    <a href="#" class="fab fa-vk"></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="trener1.jpg" alt="">
+            <div class="content">
+                <span>Тренер</span>
+                <h3>Кондратьева Мария Григорьевна</h3>
+                <div class="share">
+                    <a href="#" class="fab fa-telegram"></a>
+                    <a href="#" class="fab fa-twitter"></a>
+                    <a href="#" class="fab fa-vk"></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="trener3.jpg" alt="">
+            <div class="content">
+                <span>Тренер</span>
+                <h3>Герасимов Александр Александрович</h3>
+                <div class="share">
+                    <a href="#" class="fab fa-telegram"></a>
+                    <a href="#" class="fab fa-twitter"></a>
+                    <a href="#" class="fab fa-vk"></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="trener4.jpg" alt="">
+            <div class="content">
+                <span>Тренер</span>
+                <h3>Павлова Виктория Ярославовна</h3>
+                <div class="share">
+                    <a href="#" class="fab fa-telegram"></a>
+                    <a href="#" class="fab fa-twitter"></a>
+                    <a href="#" class="fab fa-vk"></a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<section class="banner">
+
+    <span>Присоединяйтесь к нам</span>
+    <h3>Получите скидку до 50%</h3>
+    <p>Сделай первый шаг к здоровому образу жизни прямо сейчас.</p>
+    <a href="#register" class="btn">Получить скидку</a>
+
+</section>
+
+
+
+<section class="review">
+
+    <div class="information">
+        <span>Отзывы</span>
+        <h3>Что о нас говорят клиенты</h3>
+        <p>Мы всегда рады слышать положительные отзывы о нашем фитнес клубе! Наша команда постоянно работает над улучшением услуг и предоставлением клиентам лучшего опыта тренировок. Благодарим вас за доверие и надеемся продолжать радовать вас своими услугами!</p>
+        <div class="form">
+            <h2 class="mainText">Оставьте отзыв</h2>
+            <p class="secondText">Мы будем очень благодарны</p>
+            <div class="formInput">
+                <span><i class="fas fa-user"></i></span>
+                <input placeholder="Введите ваше имя">
+            </div>
+            <div class="formInput">
+                <span><i class="fas fa-envelope"></i></span>
+                <input placeholder="Что вы думаете о нас">
+            </div>
+            <button class="send">Оставить отзыв</button>
+        </div>
+    </div>
+
+    <div class="swiper review-slider">
+
+        <div class="swiper-wrapper">
+
+            <div class="swiper-slide slide">
+                <p>Я начал посещать этот фитнес клуб несколько месяцев назад, и это было лучшее решение в моей жизни! Я почувствовал себя более энергичным, здоровым и сильным. Благодаря профессиональным тренерам и разнообразным занятиям, я достиг своих целей и даже превзошел их. Рекомендую всем!</p>
+                <div class="user">
+                    <img src="images/pic-1.png" alt="">
+                    <div class="info">
+                        <h3>Фёдор</h3>
+                    </div>
+                    <i class="fas fa-quote-left"></i>
+                </div>
+            </div>
+
+            <div class="swiper-slide slide">
+                <p>Я всегда откладывал занятия спортом на потом, пока не решился посетить этот фитнес клуб. Уже через несколько недель занятий я заметил значительное улучшение своего здоровья и физической формы. Теперь я чувствую себя более уверенно и энергично, и не могу представить свою жизнь без ежедневных тренировок здесь.</p>
+                <div class="user">
+                    <img src="images/pic-2.png" alt="">
+                    <div class="info">
+                        <h3>Полина</h3>
+                    </div>
+                    <i class="fas fa-quote-left"></i>
+                </div>
+            </div>
+
+            <div class="swiper-slide slide">
+                <p>Благодаря этому фитнес клубу я нашел новые друзья, мотивацию и уверенность в себе. Занятия здесь стали для меня не только способом поддержания формы, но и возможностью расти и развиваться как личность. Я рад, что начал посещать этот клуб, и рекомендую его всем, кто хочет изменить свою жизнь к лучшему.</p>
+                <div class="user">
+                    <img src="images/pic-3.png" alt="">
+                    <div class="info">
+                        <h3>Пётр</h3>
+                    </div>
+                    <i class="fas fa-quote-left"></i>
+                </div>
+            </div>
+
+            <div class="swiper-slide slide">
+                <p>Этот фитнес клуб просто потрясающий! У них есть все необходимое оборудование, отличные тренеры и разнообразные групповые занятия. Я посещаю их уже несколько лет и каждый раз получаю удовольствие от тренировок. Мой физический результат превзошел все мои ожидания, и я чувствую себя лучше, чем когда-либо прежде. Спасибо этому клубу за то, что они делают для своих клиентов!</p>
+                <div class="user">
+                    <img src="images/pic-4.png" alt="">
+                    <div class="info">
+                        <h3>Любовь</h3>
+                    </div>
+                    <i class="fas fa-quote-left"></i>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<section class="blogs" id="blogs">
+
+    <h1 class="heading"> <span>Полезная информация</span> </h1>
+
+    <div class="swiper blogs-slider">
+
+        <div class="swiper-wrapper">
+            <div class="swiper-slide slide">
+                <div class="image">
+                    <img src="images/blog-1.jpg" alt="">
+                </div>
+                <div class="content">
+                    <div class="link"> <a href="#">от пользователя</a> <span>|</span> <a href="#">8 сентября, 2023</a> </div>
+                    <h3>Значение разминки перед тренировкой в фитнес клубе</h3>
+                        <p>Разминка - это неотъемлемая часть тренировочного процесса в фитнес клубе. Она помогает готовить тело к физическим нагрузкам, повышает гибкость и снижает риск получения травм. Проведите 5-10 минут на разминку, выполняя упражнения на растяжку и разогревая основные группы мышц.</p>
+                </div>
+            </div>
+            
+            <div class="swiper-slide slide">
+                <div class="image">
+                    <img src="cardio.jpeg" alt="">
+                </div>
+                <div class="content">
+                    <div class="link"> <a href="#">от пользователя</a> <span>|</span> <a href="#">7 сентября, 2023</a> </div>
+                    <h3>Польза кардиотренировок для организма</h3>
+                        <p>Кардиотренировки, такие как бег, езда на велосипеде или тренажере, являются важной частью тренировочной программы в фитнес клубе. Они помогают улучшить сердечно-сосудистую систему, повысить выносливость и способствуют сжиганию калорий. Рекомендуется заниматься кардио не менее 3 раз в неделю в течение 30-60 минут.</p>
+                </div>
+            </div>
+
+            <div class="swiper-slide slide">
+                <div class="image">
+                    <img src="images/blog-3.jpg" alt="">
+                </div>
+                <div class="content">
+                    <div class="link"> <a href="#">от пользователя</a> <span>|</span> <a href="#">8 сентября, 2023</a> </div>
+                    <h3>Как правильно выбрать для себя тренера</h3>
+                        <p>При выборе тренера в фитнес клубе стоит обратить внимание на его профессиональные навыки, опыт работы и квалификацию. Также важна личная совместимость и коммуникативные навыки тренера. Поставьте перед собой конкретные цели и обсудите их с потенциальным тренером, чтобы быть уверенным в его способности помочь вам достичь желаемых результатов.</p>
+
+                </div>
+            </div>
+
+            <div class="swiper-slide slide">
+                <div class="image">
+                    <img src="images/blog-4.jpg" alt="">
+                </div>
+                <div class="content">
+                    <div class="link"> <a href="#">от пользователя</a> <span>|</span> <a href="#">9 сентября, 2023</a> </div>
+                    <h3>Преимущества силовых тренировок для женщин</h3>
+                        <p>Многие женщины опасаются силовых тренировок, однако они имеют множество преимуществ. Силовые тренировки помогают укрепить мышцы, улучшить осанку, повысить общую силу и выносливость. Кроме того, они способствуют повышению базового обмена веществ, что способствует сжиганию калорий даже в состоянии покоя.</p>
+                </div>
+            </div>
+
+            <div class="swiper-slide slide">
+                <div class="image">
+                    <img src="images/blog-5.jpg" alt="">
+                </div>
+                <div class="content">
+                    <div class="link"> <a href="#">от пользователя</a> <span>|</span> <a href="#">9 сентября, 2023</a> </div>
+                    <h3>Значение регулярных тренировок для достижения целей</h3>
+                        <p>Регулярные тренировки - ключевой фактор в достижении фитнес-целей. Необходимо заниматься не менее 3-4 раз в неделю, чтобы поддерживать прогресс и улучшать физическую форму. Постепенно увеличивайте интенсивность и время тренировок, советуясь с тренером, чтобы достичь максимальных результатов.</p>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="swiper-pagination"></div>
+
+    </div>
+
+</section>
+
+
+
+
+<section class="footer" id = "register">
+
+    <div class="box-container">
+
+
+        <div class="box">
+            <h3>Быстрые ссылки</h3>
+            <a class="links" href="#home">Главная</a>
+            <a class="links" href="#about">О нас</a>
+            <a class="links" href="#features">Залы</a>
+            <a class="links" href="#pricing">Тарифы</a>
+            <a class="links" href="#trainers">Тренеры</a>
+            <a class="links" href="#blogs">Блог</a>
+            <a class="links" href="#register">Записаться</a>
+        </div>
+
+        <div class="box">
+            <h3>Часы работы</h3>
+            <p> Понедельник : <i> 9:00 - 21:00 </i> </p>
+            <p> Вторник : <i> 9:00 - 21:00 </i> </p>
+            <p> Среда : <i> 9:00 - 21:00 </i> </p>
+            <p> Четверг : <i> 9:00 - 21:00 </i> </p>
+            <p> Пятница : <i> 9:00 - 21:00 </i> </p>
+            <p> Суббота : <i> 9:00 - 21:00 </i> </p>
+            <p> Воскресенье : <i> Выходной </i> </p>
+        </div>
+
+        <div class="box">
+            <h3>Наши контакты</h3>
+            <p> <i class="fas fa-phone"></i> +8-951-737-6605 </p>
+            <p> <i class="fas fa-envelope"></i> sagagarm8357@gmail.com </p>
+            <p> <i class="fas fa-map"></i><a href="https://maps.app.goo.gl/JtTacFb63ER6Cyjq6">г. Вологда, ул. Городской Вал, д. 26</a></p>
+            <div class="share">
+                <a href="https://vk.com/novinovi" class="fab fa-vk"></a>
+                <a href="https://t.me/sashan2011" class="fab fa-telegram"></a>
+                <a href="https://wa.me/89517376605" class="fab fa-whatsapp"></a>
+            </div>
+        </div>
+        <div class="box">
+            <form class="simple-form">
+                <h2>Запишитесь на занятие</h2>
+                <div class="form-group">
+                    <label for="name">Имя:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Сообщение:</label>
+                    <textarea id="message" name="message" rows="2" required></textarea>
+                </div>
+                <div class="form-group">
+                    <input type="submit" value="Отправить">
+                </div>
+            </form>
+        </div>
+    </div>
+</section>
+
+<section class="developerInfo">
+    <div class="developer-info">
+        <h2>О разработчике</h2>
+        <img src="iam.jpg" alt="Фото разработчика">
+        <p><span>Имя:</span> Гарманов Александр</p>
+        <p><span>Должность:</span> Веб-разработчик</p>
+        <p><span>Почта:</span> sagagarm8357@gmail.com</p>
+        <p><span>Телефон:</span> +7 (951) 737 6605</p>
+    </div>
+</section>
+
+
+<div class="credit"> Создано <span>Гармановым Александром</span></div>
+
+<script src="popup.js"></script>
+
+<script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+
+<!-- custom js file link  -->
+<script src="js/script.js"></script>
+<script src="popup.js"></script>
+
+</body>
+</html>
