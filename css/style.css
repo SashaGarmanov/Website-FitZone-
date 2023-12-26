@@ -1080,40 +1080,24 @@ input[type="submit"]:hover {
 }
 
 .developer-info {
-  justify-content: center;
-  padding: 20px;
-  width: 40%;
-  border-radius: 5px;
-  position: relative;
+  width: 100%;
 }
 
 .developer-info h2 {
   color: red;
   font-size: 24px;
   margin-bottom: 10px;
-  margin-right: 250px;
 }
 
-.developer-info img {
-  position: absolute;
-  top: 0;
-  right: 0;
-  width: 25%;
-  height: 100%;
-  border:3px solid red;
-  box-shadow: 0 0 10px red;
-}
 
 .developer-info p {
     margin-bottom: 5px;
-    margin-right: 100px;
     font-size: 15px;
     color: #ccc;
 }
 .developer-info p span{
   color: red;
 }
-
 
 
 .credit {
